@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Even_Odd {
 	public static void main(String[] args) {
+		System.out.println("enter number");
 		Scanner se=new Scanner(System.in);
 		int num=se.nextInt();
 		if(num%2==0) {
